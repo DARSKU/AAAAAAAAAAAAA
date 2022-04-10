@@ -1,7 +1,4 @@
-print("bungie is poop")
-
--- Gui to Lua
--- Version: 3.2
+-- By darien273 // Thanks For Using :)
 
 -- Instances:
 
@@ -33,6 +30,23 @@ local Aerial = Instance.new("TextButton")
 local Twister = Instance.new("TextButton")
 local BackTwist = Instance.new("TextButton")
 local PlanterKick = Instance.new("TextButton")
+local Frame2 = Instance.new("Frame")
+local NameSection1 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local Agree = Instance.new("TextButton")
+local Disagree = Instance.new("TextButton")
+local Greet = Instance.new("TextButton")
+local ok = Instance.new("TextButton")
+local Idk = Instance.new("TextButton")
+local Confused = Instance.new("TextButton")
+local Hungry = Instance.new("TextButton")
+local Dumb = Instance.new("TextButton")
+local Threat = Instance.new("TextButton")
+local Callout = Instance.new("TextButton")
+local RANDOM = Instance.new("TextButton")
+local Chat = Instance.new("ImageButton")
+local Close = Instance.new("TextButton")
 
 --Properties:
 
@@ -381,9 +395,186 @@ PlanterKick.TextScaled = true
 PlanterKick.TextSize = 14.000
 PlanterKick.TextWrapped = true
 
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.999810278, 0, 0.086785011, 0)
+Frame2.Size = UDim2.new(0, 337, 0, 462)
+Frame2.Visible = false
+
+NameSection1.Name = "NameSection1"
+NameSection1.Parent = Frame2
+NameSection1.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+NameSection1.BorderSizePixel = 0
+NameSection1.Position = UDim2.new(0, 0, -0.0954121351, 0)
+NameSection1.Size = UDim2.new(0, 337, 0, 50)
+NameSection1.Font = Enum.Font.GothamBlack
+NameSection1.Text = "darien language :)"
+NameSection1.TextColor3 = Color3.fromRGB(170, 255, 255)
+NameSection1.TextScaled = true
+NameSection1.TextSize = 14.000
+NameSection1.TextStrokeTransparency = 0.000
+NameSection1.TextWrapped = true
+
+ScrollingFrame.Parent = Frame2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -0.00218035537, 0)
+ScrollingFrame.Size = UDim2.new(0, 337, 0, 464)
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+Agree.Name = "Agree"
+Agree.Parent = ScrollingFrame
+Agree.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Agree.Size = UDim2.new(0, 337, 0, 50)
+Agree.Font = Enum.Font.PatrickHand
+Agree.Text = "is col :) 👍"
+Agree.TextColor3 = Color3.fromRGB(255, 255, 255)
+Agree.TextScaled = true
+Agree.TextSize = 14.000
+Agree.TextWrapped = true
+
+Disagree.Name = "Disagree"
+Disagree.Parent = ScrollingFrame
+Disagree.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Disagree.Size = UDim2.new(0, 337, 0, 50)
+Disagree.Font = Enum.Font.PatrickHand
+Disagree.Text = "is not col :( 👎"
+Disagree.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disagree.TextScaled = true
+Disagree.TextSize = 14.000
+Disagree.TextWrapped = true
+
+Greet.Name = "Greet"
+Greet.Parent = ScrollingFrame
+Greet.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Greet.Size = UDim2.new(0, 337, 0, 50)
+Greet.Font = Enum.Font.PatrickHand
+Greet.Text = "hel o :)"
+Greet.TextColor3 = Color3.fromRGB(255, 255, 255)
+Greet.TextScaled = true
+Greet.TextSize = 14.000
+Greet.TextWrapped = true
+
+ok.Name = "ok"
+ok.Parent = ScrollingFrame
+ok.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+ok.Size = UDim2.new(0, 337, 0, 50)
+ok.Font = Enum.Font.PatrickHand
+ok.Text = "is ok :|"
+ok.TextColor3 = Color3.fromRGB(255, 255, 255)
+ok.TextScaled = true
+ok.TextSize = 14.000
+ok.TextWrapped = true
+
+Idk.Name = "Idk"
+Idk.Parent = ScrollingFrame
+Idk.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Idk.Size = UDim2.new(0, 337, 0, 50)
+Idk.Font = Enum.Font.PatrickHand
+Idk.Text = "is dont kno"
+Idk.TextColor3 = Color3.fromRGB(255, 255, 255)
+Idk.TextScaled = true
+Idk.TextSize = 14.000
+Idk.TextWrapped = true
+
+Confused.Name = "Confused"
+Confused.Parent = ScrollingFrame
+Confused.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Confused.Size = UDim2.new(0, 337, 0, 50)
+Confused.Font = Enum.Font.PatrickHand
+Confused.Text = "is confuse :("
+Confused.TextColor3 = Color3.fromRGB(255, 255, 255)
+Confused.TextScaled = true
+Confused.TextSize = 14.000
+Confused.TextWrapped = true
+
+Hungry.Name = "Hungry"
+Hungry.Parent = ScrollingFrame
+Hungry.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Hungry.Size = UDim2.new(0, 337, 0, 50)
+Hungry.Font = Enum.Font.PatrickHand
+Hungry.Text = "burger :)"
+Hungry.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hungry.TextScaled = true
+Hungry.TextSize = 14.000
+Hungry.TextWrapped = true
+
+Dumb.Name = "Dumb"
+Dumb.Parent = ScrollingFrame
+Dumb.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Dumb.Size = UDim2.new(0, 337, 0, 50)
+Dumb.Font = Enum.Font.PatrickHand
+Dumb.Text = "balls"
+Dumb.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dumb.TextScaled = true
+Dumb.TextSize = 14.000
+Dumb.TextWrapped = true
+
+Threat.Name = "Threat"
+Threat.Parent = ScrollingFrame
+Threat.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Threat.Size = UDim2.new(0, 337, 0, 50)
+Threat.Font = Enum.Font.PatrickHand
+Threat.Text = "gnag gnag :)"
+Threat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Threat.TextScaled = true
+Threat.TextSize = 14.000
+Threat.TextWrapped = true
+
+Callout.Name = "Callout"
+Callout.Parent = ScrollingFrame
+Callout.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Callout.Size = UDim2.new(0, 337, 0, 50)
+Callout.Font = Enum.Font.PatrickHand
+Callout.Text = "fake :("
+Callout.TextColor3 = Color3.fromRGB(255, 255, 255)
+Callout.TextScaled = true
+Callout.TextSize = 14.000
+Callout.TextWrapped = true
+
+RANDOM.Name = "RANDOM"
+RANDOM.Parent = ScrollingFrame
+RANDOM.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+RANDOM.Size = UDim2.new(0, 337, 0, 50)
+RANDOM.Font = Enum.Font.GothamBlack
+RANDOM.Text = "RANDOM"
+RANDOM.TextColor3 = Color3.fromRGB(255, 255, 255)
+RANDOM.TextScaled = true
+RANDOM.TextSize = 14.000
+RANDOM.TextWrapped = true
+
+Chat.Name = "Chat"
+Chat.Parent = Frame
+Chat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Chat.BackgroundTransparency = 1.000
+Chat.BorderSizePixel = 0
+Chat.Position = UDim2.new(0.856512129, 0, 0.50690335, 0)
+Chat.Size = UDim2.new(0, 65, 0, 50)
+Chat.Image = "rbxassetid://332218617"
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(-0.0949227363, 0, -0.0986193269, 0)
+Close.Size = UDim2.new(0, 43, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextStrokeTransparency = 0.000
+Close.TextWrapped = true
+
 -- Scripts:
 
-local function MMJMI_fake_script() -- FrontFlip1.LocalScript 
+local function ZUSOEKB_fake_script() -- FrontFlip1.LocalScript 
 	local script = Instance.new('LocalScript', FrontFlip1)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -467,8 +658,8 @@ local function MMJMI_fake_script() -- FrontFlip1.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MMJMI_fake_script)()
-local function TVAQ_fake_script() -- BackFlip1.LocalScript 
+coroutine.wrap(ZUSOEKB_fake_script)()
+local function KFFSPO_fake_script() -- BackFlip1.LocalScript 
 	local script = Instance.new('LocalScript', BackFlip1)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -552,8 +743,8 @@ local function TVAQ_fake_script() -- BackFlip1.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TVAQ_fake_script)()
-local function COYAP_fake_script() -- Dive.LocalScript 
+coroutine.wrap(KFFSPO_fake_script)()
+local function DUEOXM_fake_script() -- Dive.LocalScript 
 	local script = Instance.new('LocalScript', Dive)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -639,8 +830,8 @@ local function COYAP_fake_script() -- Dive.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(COYAP_fake_script)()
-local function BXIDI_fake_script() -- Gainer.LocalScript 
+coroutine.wrap(DUEOXM_fake_script)()
+local function RROAG_fake_script() -- Gainer.LocalScript 
 	local script = Instance.new('LocalScript', Gainer)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -724,8 +915,8 @@ local function BXIDI_fake_script() -- Gainer.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BXIDI_fake_script)()
-local function QNPDY_fake_script() -- Looser.LocalScript 
+coroutine.wrap(RROAG_fake_script)()
+local function UKOR_fake_script() -- Looser.LocalScript 
 	local script = Instance.new('LocalScript', Looser)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -809,8 +1000,8 @@ local function QNPDY_fake_script() -- Looser.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QNPDY_fake_script)()
-local function LERUQJ_fake_script() -- McTwist.LocalScript 
+coroutine.wrap(UKOR_fake_script)()
+local function ROQYD_fake_script() -- McTwist.LocalScript 
 	local script = Instance.new('LocalScript', McTwist)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -899,8 +1090,8 @@ local function LERUQJ_fake_script() -- McTwist.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LERUQJ_fake_script)()
-local function THOEJ_fake_script() -- KTM.LocalScript 
+coroutine.wrap(ROQYD_fake_script)()
+local function BOZUZNT_fake_script() -- KTM.LocalScript 
 	local script = Instance.new('LocalScript', KTM)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -986,8 +1177,8 @@ local function THOEJ_fake_script() -- KTM.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(THOEJ_fake_script)()
-local function DZBJNE_fake_script() -- Pike.LocalScript 
+coroutine.wrap(BOZUZNT_fake_script)()
+local function VFOYE_fake_script() -- Pike.LocalScript 
 	local script = Instance.new('LocalScript', Pike)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1077,8 +1268,8 @@ local function DZBJNE_fake_script() -- Pike.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DZBJNE_fake_script)()
-local function KDPTPZ_fake_script() -- HBF.LocalScript 
+coroutine.wrap(VFOYE_fake_script)()
+local function GEJODR_fake_script() -- HBF.LocalScript 
 	local script = Instance.new('LocalScript', HBF)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1088,7 +1279,7 @@ local function KDPTPZ_fake_script() -- HBF.LocalScript
 		local debounce=false
 		function _restoreproperties() 
 			Holder = player.Character 
-			Torso = Holder:FindFirstChild("HumanoidRootPart")  
+			Torso = Holder:FindFirstChild("HumanoidRootPart") 
 		end 
 		function ManageAnimation(value) 
 			Holder = player.Character 
@@ -1162,8 +1353,8 @@ local function KDPTPZ_fake_script() -- HBF.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KDPTPZ_fake_script)()
-local function JICODB_fake_script() -- _360.LocalScript 
+coroutine.wrap(GEJODR_fake_script)()
+local function SOCIKGD_fake_script() -- _360.LocalScript 
 	local script = Instance.new('LocalScript', _360)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1245,8 +1436,8 @@ local function JICODB_fake_script() -- _360.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JICODB_fake_script)()
-local function CJWX_fake_script() -- SkillRoll.LocalScript 
+coroutine.wrap(SOCIKGD_fake_script)()
+local function NRJHN_fake_script() -- SkillRoll.LocalScript 
 	local script = Instance.new('LocalScript', SkillRoll)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1330,8 +1521,8 @@ local function CJWX_fake_script() -- SkillRoll.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CJWX_fake_script)()
-local function UOXP_fake_script() -- ButterflyKick.LocalScript 
+coroutine.wrap(NRJHN_fake_script)()
+local function DCSJBC_fake_script() -- ButterflyKick.LocalScript 
 	local script = Instance.new('LocalScript', ButterflyKick)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1421,8 +1612,8 @@ local function UOXP_fake_script() -- ButterflyKick.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(UOXP_fake_script)()
-local function CKUK_fake_script() -- LongJump.LocalScript 
+coroutine.wrap(DCSJBC_fake_script)()
+local function KFEBAX_fake_script() -- LongJump.LocalScript 
 	local script = Instance.new('LocalScript', LongJump)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1508,8 +1699,8 @@ local function CKUK_fake_script() -- LongJump.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CKUK_fake_script)()
-local function EGLXDCO_fake_script() -- WallJump.LocalScript 
+coroutine.wrap(KFEBAX_fake_script)()
+local function RISSIRW_fake_script() -- WallJump.LocalScript 
 	local script = Instance.new('LocalScript', WallJump)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1599,8 +1790,8 @@ local function EGLXDCO_fake_script() -- WallJump.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EGLXDCO_fake_script)()
-local function ALMJR_fake_script() -- UBSlide.LocalScript 
+coroutine.wrap(RISSIRW_fake_script)()
+local function TEWIV_fake_script() -- UBSlide.LocalScript 
 	local script = Instance.new('LocalScript', UBSlide)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1689,8 +1880,8 @@ local function ALMJR_fake_script() -- UBSlide.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ALMJR_fake_script)()
-local function XUQQGEG_fake_script() -- SpringClimb.LocalScript 
+coroutine.wrap(TEWIV_fake_script)()
+local function BJXALJP_fake_script() -- SpringClimb.LocalScript 
 	local script = Instance.new('LocalScript', SpringClimb)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1776,8 +1967,8 @@ local function XUQQGEG_fake_script() -- SpringClimb.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XUQQGEG_fake_script)()
-local function VYGU_fake_script() -- BackSkillR.LocalScript 
+coroutine.wrap(BJXALJP_fake_script)()
+local function MPFXWV_fake_script() -- BackSkillR.LocalScript 
 	local script = Instance.new('LocalScript', BackSkillR)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1861,8 +2052,8 @@ local function VYGU_fake_script() -- BackSkillR.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VYGU_fake_script)()
-local function SOGY_fake_script() -- Key.LocalScript 
+coroutine.wrap(MPFXWV_fake_script)()
+local function EVAKP_fake_script() -- Key.LocalScript 
 	local script = Instance.new('LocalScript', Key)
 
 	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
@@ -1870,8 +2061,8 @@ local function SOGY_fake_script() -- Key.LocalScript
 		script.Parent.Text = text
 	end)
 end
-coroutine.wrap(SOGY_fake_script)()
-local function RQQV_fake_script() -- _360Pike.LocalScript 
+coroutine.wrap(EVAKP_fake_script)()
+local function MEFGUL_fake_script() -- _360Pike.LocalScript 
 	local script = Instance.new('LocalScript', _360Pike)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1962,8 +2153,8 @@ local function RQQV_fake_script() -- _360Pike.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RQQV_fake_script)()
-local function BNSROJ_fake_script() -- Aerial.LocalScript 
+coroutine.wrap(MEFGUL_fake_script)()
+local function HTGPD_fake_script() -- Aerial.LocalScript 
 	local script = Instance.new('LocalScript', Aerial)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2045,8 +2236,8 @@ local function BNSROJ_fake_script() -- Aerial.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BNSROJ_fake_script)()
-local function KIGPE_fake_script() -- Twister.LocalScript 
+coroutine.wrap(HTGPD_fake_script)()
+local function WAATHE_fake_script() -- Twister.LocalScript 
 	local script = Instance.new('LocalScript', Twister)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2136,8 +2327,8 @@ local function KIGPE_fake_script() -- Twister.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KIGPE_fake_script)()
-local function QPWGE_fake_script() -- BackTwist.LocalScript 
+coroutine.wrap(WAATHE_fake_script)()
+local function XZKSBHN_fake_script() -- BackTwist.LocalScript 
 	local script = Instance.new('LocalScript', BackTwist)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2227,8 +2418,8 @@ local function QPWGE_fake_script() -- BackTwist.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QPWGE_fake_script)()
-local function ZZOZY_fake_script() -- PlanterKick.LocalScript 
+coroutine.wrap(XZKSBHN_fake_script)()
+local function QBFIJWA_fake_script() -- PlanterKick.LocalScript 
 	local script = Instance.new('LocalScript', PlanterKick)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2314,4 +2505,140 @@ local function ZZOZY_fake_script() -- PlanterKick.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ZZOZY_fake_script)()
+coroutine.wrap(QBFIJWA_fake_script)()
+local function QBGLMO_fake_script() -- Agree.LocalScript 
+	local script = Instance.new('LocalScript', Agree)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is col :) 👍","all")
+	end)
+end
+coroutine.wrap(QBGLMO_fake_script)()
+local function LCNL_fake_script() -- Disagree.LocalScript 
+	local script = Instance.new('LocalScript', Disagree)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is not col :( 👎","all")
+	end)
+end
+coroutine.wrap(LCNL_fake_script)()
+local function YPBVQ_fake_script() -- Greet.LocalScript 
+	local script = Instance.new('LocalScript', Greet)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("hel o :)","all")
+	end)
+end
+coroutine.wrap(YPBVQ_fake_script)()
+local function GDIZFR_fake_script() -- ok.LocalScript 
+	local script = Instance.new('LocalScript', ok)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is ok :|","all")
+	end)
+end
+coroutine.wrap(GDIZFR_fake_script)()
+local function WAQOLQ_fake_script() -- Idk.LocalScript 
+	local script = Instance.new('LocalScript', Idk)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is dont kno","all")
+	end)
+end
+coroutine.wrap(WAQOLQ_fake_script)()
+local function YQST_fake_script() -- Confused.LocalScript 
+	local script = Instance.new('LocalScript', Confused)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is confuse :(","all")
+	end)
+end
+coroutine.wrap(YQST_fake_script)()
+local function VOMIUUD_fake_script() -- Hungry.LocalScript 
+	local script = Instance.new('LocalScript', Hungry)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("burger :)","all")
+	end)
+end
+coroutine.wrap(VOMIUUD_fake_script)()
+local function EYXI_fake_script() -- Dumb.LocalScript 
+	local script = Instance.new('LocalScript', Dumb)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("balls","all")
+	end)
+end
+coroutine.wrap(EYXI_fake_script)()
+local function TCKUOWJ_fake_script() -- Threat.LocalScript 
+	local script = Instance.new('LocalScript', Threat)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("gnag gnag :)","all")
+	end)
+end
+coroutine.wrap(TCKUOWJ_fake_script)()
+local function JTBILA_fake_script() -- Callout.LocalScript 
+	local script = Instance.new('LocalScript', Callout)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fake :(","all")
+	end)
+end
+coroutine.wrap(JTBILA_fake_script)()
+local function TQABZV_fake_script() -- RANDOM.LocalScript 
+	local script = Instance.new('LocalScript', RANDOM)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local RNDM = math.random(1,11)
+		
+		if RNDM == 1 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is col :) 👍","all")
+		elseif RNDM == 2 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is not col :( 👎","all")
+		elseif RNDM == 3 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("hel o :)","all")
+		elseif RNDM == 4 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is ok :|","all")
+		elseif RNDM == 5 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is dont kno","all")
+		elseif RNDM == 6 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is dont kno","all")
+		elseif RNDM == 7 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("is confuse :(","all")
+		elseif RNDM == 8 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("burger :)","all")
+		elseif RNDM == 9 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("balls","all")
+		elseif RNDM == 10 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("gnag gnag :)","all")
+		elseif RNDM == 11 then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fake :(","all")
+		end
+	end)
+end
+coroutine.wrap(TQABZV_fake_script)()
+local function IQKLP_fake_script() -- Chat.LocalScript 
+	local script = Instance.new('LocalScript', Chat)
+
+	local Activated = false
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if Activated ==false then
+			Activated = true
+			script.Parent.Parent:FindFirstChild("Frame2").Visible = true
+		else
+			Activated = false
+			script.Parent.Parent:FindFirstChild("Frame2").Visible = false
+		end
+	end)
+end
+coroutine.wrap(IQKLP_fake_script)()
+local function HTUVM_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(HTUVM_fake_script)()
